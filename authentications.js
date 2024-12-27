@@ -5,7 +5,7 @@ let error = document.createElement('p');
 
 const verification = () => {
     if (username.value === 'admin' && password.value === 'admin123') {
-        window.location.href = '/dashboard.html';
+        window.location.href = 'dashboard.html';
     } else {
         error.innerHTML = 'Username atau password salah!';
         message.innerHTML = ''; 
